@@ -10,20 +10,24 @@ body {
     height: 100%;
 }
 
+/* defines body text style */
 body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
-
+ /* bar under #shoutit title */
 hr {
     max-width: 50px;
     border-color: #c4f605;
     border-width: 3px;
 }
+ 
+/* bar under We are here to help, second title */
 
 hr.light {
     border-color: #c4f605;
 }
 
+/* not visible */
 a {
     color: #222;
     -webkit-transition: all .35s;
@@ -31,6 +35,7 @@ a {
     transition: all .35s;
 }
 
+/* not visible */
 a:hover,
 a:focus {
     color: #c4f605;
@@ -41,63 +46,78 @@ h2,
 h3,
 h4,
 h5,
+/* #SHOUTIT defines heading style, is the style that teh title hashtag uses*/
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Opene Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+
+/* Defines paragraphs, specifically the one under "We are here to help" */
 p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
 }
 
+/* Defines background color, specifically the "we are here to help" section */ 
 .bg-primary {
     
     background-color: #222;
 }
 
+/* Color defines title text at bottom, specifically "Get our free App!";
+ background-color defines back, dark color of same section */
 .bg-dark {
     color: #fff;
     background-color: #222;
 }
 
+/* defines upper line color and transparency of text in colored highlight tiles */
 .text-faded {
     color: rgba(255,255,255,.7);
 }
 
+/* defines space around bottom text, specifically "Give us a SHOUT!" and group */
 section {
     padding: 100px 0;
 }
 
+/* defines space around dark bottom text and button, specifically "Get our free App!" */
 aside {
     padding: 50px 0;
 }
 
+/* defines padding around tiles section */
 .no-padding {
-    padding: 0;
+    padding: 0px;
 }
 
+/* defines top right nav bar styling; part 1, also mobile title bar*/
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: #fff;
+    background-color: #222;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
 
+/* top left title styling */
 .navbar-default .navbar-header .navbar-brand {
-    text-transform: uppercase;
+    /*text-transform: uppercase; */
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* mobile title while hovered */
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
     color: #c4f605;
 }
 
-.navbar-default .navbar-header .navbar-brand:hover,
-.navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
-}
-
+/* top right nav bar styling; part 2*/
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
@@ -106,45 +126,54 @@ aside {
     color: #222;
 }
 
+/* not visible; probably nav bar on mobile */
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
     color: #c4f605;
 }
 
+/* not visible; probably more nav bar on mobile */
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
     color: #c4f605!importants;
     background-color: transparent;
 }
 
+/* not visible */
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover {
     background-color: transparent;
 }
 
 @media(min-width:768px) {
+
+    /* nav bar line below and background */
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
-        background-color: transparent;
+        border-color: #222;
+        background-color: #222;
     }
-
+    
+    /* Title color unselected */
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: #fff;
     }
 
+    /* title color on hover */
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
         color: #c4f605;
     }
 
+    /* Nav bar text color unselected */
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: #fff;
     }
 
+    /* Nav bar text on hover */
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fff;
+        color: #c4f605;
     }
 
     .navbar-default.affix {
@@ -173,6 +202,7 @@ aside {
     }
 }
 
+ /* first title styling, specifically "#SHOUTIT" */
 header {
     position: relative;
     width: 100%;
@@ -266,6 +296,7 @@ header .header-content .header-content-inner p {
     max-width: 650px;
 }
 
+/* style of lower text in highlighted tiles */
 .portfolio-box .portfolio-box-caption {
     display: block;
     position: absolute;
@@ -332,6 +363,7 @@ header .header-content .header-content-inner p {
     padding-left: 0;
 }
 
+/* button styling */
 .btn-default {
     border-color: #fff;
     color: #222;
