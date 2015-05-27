@@ -46,8 +46,9 @@ h2,
 h3,
 h4,
 h5,
-/* #SHOUTIT defines heading style, is the style that teh title hashtag uses*/
+/* #SHOUTIT defines heading style, is the style that the title hashtag uses*/
 h6 {
+    
     font-family: 'Opene Sans','Helvetica Neue',Arial,sans-serif;
 }
 
