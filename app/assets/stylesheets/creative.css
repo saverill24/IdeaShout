@@ -94,7 +94,7 @@ aside {
 }
 
 /* defines top right nav bar styling; part 1, also mobile title bar*/
-.navbar-default {
+.default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #222;
