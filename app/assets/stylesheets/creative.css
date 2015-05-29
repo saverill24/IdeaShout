@@ -90,7 +90,7 @@ aside {
 
 /* defines padding around tiles section */
 .no-padding {
-    padding: 0px;
+    padding: 50px;
 }
 
 /* defines top right nav bar styling; part 1, also mobile title bar*/
@@ -150,7 +150,7 @@ aside {
 
     /* nav bar line below and background */
     .navbar-default {
-        border-color: #222;
+        border-color: #c4f605;
         background-color: #222;
     }
     
@@ -210,14 +210,33 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../assets/header.jpg);
+   background-image: url(../assets/header.jpg); 
+   /* <video width="320" height="240" autoplay>
+   <source src='../assets/vid1.mp4' type="video/mp4">
+   </video> */
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-
+video { 
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-15%);
+ /*background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat; */
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
 header .header-content {
     position: relative;
     width: 100%;
