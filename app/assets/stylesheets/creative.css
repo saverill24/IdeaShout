@@ -214,7 +214,7 @@ header {
     text-align: center;
     color: #fff;
    background-image: url(../assets/header.jpg); 
-   <video width="320" height="240" autoplay>
+   /*<video width="320" height="240" autoplay>
    <source src='../assets/vid1.mp4' type="video/mp4">
    </video> */
     background-position: center;
