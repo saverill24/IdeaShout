@@ -227,8 +227,7 @@ video {
     position: absolute;
     top: -40%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 1500px;
     width: auto;
     height: auto;
     z-index: -100;
