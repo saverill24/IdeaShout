@@ -11,7 +11,6 @@ Rails.application.routes.draw do
   
     get 'products/tiles'
 
-    get 'assets/images/portfolio/logo.jpg' => 'products/apps/assets/images/portfolio/logo.jpg'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
