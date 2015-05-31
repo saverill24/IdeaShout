@@ -80,7 +80,6 @@ p {
 
 /* defines space around bottom text, specifically "Give us a SHOUT!" and group */
 section {
-
     padding: 100px 0;
 }
 
@@ -208,7 +207,7 @@ aside {
 
  /* first title styling, specifically "#SHOUTIT" */
 header {
-    position: absolute;
+    position: relative;
     width: 100%;
     min-height: auto;
     text-align: center;
@@ -295,15 +294,10 @@ header .header-content .header-content-inner p {
     }
 }
 
-.section1-heading {
-    margin-top: 550px;
-}
-.section2-heading {
+.section-heading {
     margin-top: 0;
 }
-.section3-heading {
-    margin-top: 0;
-}
+
 .service-box {
     margin: 50px auto 0;
     max-width: 400px;
