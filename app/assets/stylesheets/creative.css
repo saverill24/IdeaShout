@@ -332,6 +332,8 @@ header .header-content .header-content-inner p {
     display: block;
     position: absolute;
     bottom: 25px;
+    width: 92%;
+    height: 86.5%;
     text-align: center;
     color: #fff;
     opacity: 0;
