@@ -4835,7 +4835,7 @@ a.badge:focus {
   background-color: #fff;
 }
 .list-group-item > .badge {
-  float: right;
+  float: left;
 }
 .list-group-item > .badge + .badge {
   margin-right: 5px;
@@ -5127,7 +5127,7 @@ a.thumbnail.active {
   margin-bottom: 20px;
 }
 .list-group-item {
-  position: relative;
+  position: fixed;
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
