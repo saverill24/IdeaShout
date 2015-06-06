@@ -4829,7 +4829,7 @@ a.badge:focus {
   text-decoration: none;
   cursor: pointer;
 }
-.list-group-item.active > .badge,
+/.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
   color: #337ab7;
   background-color: #fff;
@@ -4842,7 +4842,7 @@ a.badge:focus {
 }
 .nav-pills > li > a > .badge {
   margin-left: 3px;
-}
+}/
 .jumbotron {
   padding: 30px 15px;
   margin-bottom: 30px;
